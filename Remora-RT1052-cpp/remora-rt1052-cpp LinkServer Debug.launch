@@ -2,15 +2,13 @@
 <launchConfiguration type="com.crt.dsfdebug.crtmcu.launchType">
     <stringAttribute key=".gdbinit" value=""/>
     <booleanAttribute key="attach" value="false"/>
-    <booleanAttribute key="boot.config.enable" value="false"/>
-    <stringAttribute key="boot.configuration.control" value=""/>
     <stringAttribute key="bootrom.stall" value=""/>
     <stringAttribute key="com.crt.ctrlcenter.OFSemuDetails" value="LinkServer"/>
     <booleanAttribute key="com.crt.ctrlcenter.crtInit" value="true"/>
     <stringAttribute key="com.crt.ctrlcenter.currentWireType" value="SWD"/>
     <booleanAttribute key="com.crt.ctrlcenter.mainBreakIsHardware" value="true"/>
     <booleanAttribute key="com.crt.ctrlcenter.saveState" value="true"/>
-    <stringAttribute key="com.crt.ctrlcenter.serialNumber" value="LinkServerjixin.proCMSIS-DAP_LULU_2022_8888"/>
+    <stringAttribute key="com.crt.ctrlcenter.serialNumber" value="LinkServerX893 ARMCMSIS-DAP HID0001A0000000"/>
     <mapAttribute key="com.crt.ctrlcenter.symbolsGroupSettings"/>
     <intAttribute key="com.crt.ctrlcenter.version" value="6"/>
     <stringAttribute key="com.nxp.mcuxpresso.flash.base.address" value="0x60000000"/>
@@ -20,8 +18,8 @@
     <stringAttribute key="com.nxp.mcuxpresso.flash.executable" value="axf"/>
     <stringAttribute key="com.nxp.mcuxpresso.flash.program.action" value="Program"/>
     <booleanAttribute key="com.nxp.mcuxpresso.flash.reset.target" value="true"/>
-    <stringAttribute key="com.nxp.mcuxpresso.ide.probe.manufacturer" value="jixin.pro"/>
-    <stringAttribute key="com.nxp.mcuxpresso.ide.probe.name" value="CMSIS-DAP_LU"/>
+    <stringAttribute key="com.nxp.mcuxpresso.ide.probe.manufacturer" value="X893 ARM"/>
+    <stringAttribute key="com.nxp.mcuxpresso.ide.probe.name" value="CMSIS-DAP HID"/>
     <stringAttribute key="com.nxp.mcuxpresso.ide.probe.type" value="LinkServer"/>
     <stringAttribute key="debug.level" value="2"/>
     <stringAttribute key="emu.speed" value=""/>
@@ -41,7 +39,6 @@
     <stringAttribute key="internal.semihost" value="On"/>
     <stringAttribute key="internal.wirespeed" value=""/>
     <stringAttribute key="internal.wiretype" value="SWD"/>
-    <stringAttribute key="isp.control" value="xxxx"/>
     <stringAttribute key="launch.config.handler" value="com.crt.ctrlcenter.launch.CRTLaunchConfigHandler"/>
     <booleanAttribute key="mem.access" value="false"/>
     <stringAttribute key="misc.options" value="--no-packed"/>
@@ -51,7 +48,7 @@
     <booleanAttribute key="org.eclipse.cdt.debug.gdbjtag.core.doReset" value="false"/>
     <stringAttribute key="org.eclipse.cdt.debug.gdbjtag.core.imageFileName" value=""/>
     <stringAttribute key="org.eclipse.cdt.debug.gdbjtag.core.imageOffset" value=""/>
-    <stringAttribute key="org.eclipse.cdt.debug.gdbjtag.core.initCommands" value="set non-stop on&#13;&#10;set pagination off&#13;&#10;set mi-async&#13;&#10;set remotetimeout 60000&#13;&#10;##target_extended_remote##&#13;&#10;set mem inaccessible-by-default ${mem.access}&#13;&#10;mon ondisconnect ${ondisconnect}&#13;&#10;set arm force-mode thumb&#13;&#10;${load}"/>
+    <stringAttribute key="org.eclipse.cdt.debug.gdbjtag.core.initCommands" value="set non-stop on&#10;set pagination off&#10;set mi-async&#10;set remotetimeout 60000&#10;##target_extended_remote##&#10;set mem inaccessible-by-default ${mem.access}&#10;mon ondisconnect ${ondisconnect}&#10;set arm force-mode thumb&#10;${load}"/>
     <stringAttribute key="org.eclipse.cdt.debug.gdbjtag.core.ipAddress" value="localhost"/>
     <booleanAttribute key="org.eclipse.cdt.debug.gdbjtag.core.loadImage" value="true"/>
     <booleanAttribute key="org.eclipse.cdt.debug.gdbjtag.core.loadSymbols" value="true"/>
