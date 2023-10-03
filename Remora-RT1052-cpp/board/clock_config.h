@@ -1,9 +1,3 @@
-/*
- * Copyright 2017-2020 NXP
- * All rights reserved.
- *
- * SPDX-License-Identifier: BSD-3-Clause
- */
 #ifndef _CLOCK_CONFIG_H_
 #define _CLOCK_CONFIG_H_
 
@@ -120,3 +114,4 @@ void BOARD_BootClockRUN(void);
 #endif /* __cplusplus*/
 
 #endif /* _CLOCK_CONFIG_H_ */
+

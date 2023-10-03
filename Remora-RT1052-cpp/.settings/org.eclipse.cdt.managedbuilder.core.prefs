@@ -1,4 +1,12 @@
 eclipse.preferences.version=1
+environment/buildEnvironmentInclude/com.crt.advproject.config.exe.debug.2052327699/CPATH/delimiter=;
+environment/buildEnvironmentInclude/com.crt.advproject.config.exe.debug.2052327699/CPATH/operation=remove
+environment/buildEnvironmentInclude/com.crt.advproject.config.exe.debug.2052327699/CPLUS_INCLUDE_PATH/delimiter=;
+environment/buildEnvironmentInclude/com.crt.advproject.config.exe.debug.2052327699/CPLUS_INCLUDE_PATH/operation=remove
+environment/buildEnvironmentInclude/com.crt.advproject.config.exe.debug.2052327699/C_INCLUDE_PATH/delimiter=;
+environment/buildEnvironmentInclude/com.crt.advproject.config.exe.debug.2052327699/C_INCLUDE_PATH/operation=remove
+environment/buildEnvironmentInclude/com.crt.advproject.config.exe.debug.2052327699/append=true
+environment/buildEnvironmentInclude/com.crt.advproject.config.exe.debug.2052327699/appendContributed=true
 environment/buildEnvironmentInclude/com.crt.advproject.config.exe.release.957882016/CPATH/delimiter=;
 environment/buildEnvironmentInclude/com.crt.advproject.config.exe.release.957882016/CPATH/operation=remove
 environment/buildEnvironmentInclude/com.crt.advproject.config.exe.release.957882016/CPLUS_INCLUDE_PATH/delimiter=;
@@ -7,6 +15,10 @@ environment/buildEnvironmentInclude/com.crt.advproject.config.exe.release.957882
 environment/buildEnvironmentInclude/com.crt.advproject.config.exe.release.957882016/C_INCLUDE_PATH/operation=remove
 environment/buildEnvironmentInclude/com.crt.advproject.config.exe.release.957882016/append=true
 environment/buildEnvironmentInclude/com.crt.advproject.config.exe.release.957882016/appendContributed=true
+environment/buildEnvironmentLibrary/com.crt.advproject.config.exe.debug.2052327699/LIBRARY_PATH/delimiter=;
+environment/buildEnvironmentLibrary/com.crt.advproject.config.exe.debug.2052327699/LIBRARY_PATH/operation=remove
+environment/buildEnvironmentLibrary/com.crt.advproject.config.exe.debug.2052327699/append=true
+environment/buildEnvironmentLibrary/com.crt.advproject.config.exe.debug.2052327699/appendContributed=true
 environment/buildEnvironmentLibrary/com.crt.advproject.config.exe.release.957882016/LIBRARY_PATH/delimiter=;
 environment/buildEnvironmentLibrary/com.crt.advproject.config.exe.release.957882016/LIBRARY_PATH/operation=remove
 environment/buildEnvironmentLibrary/com.crt.advproject.config.exe.release.957882016/append=true

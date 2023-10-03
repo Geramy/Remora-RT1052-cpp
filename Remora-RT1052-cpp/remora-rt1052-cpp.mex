@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding= "UTF-8" ?>
-<configuration name="MIMXRT1052xxxxB" xsi:schemaLocation="http://mcuxpresso.nxp.com/XSD/mex_configuration_12 http://mcuxpresso.nxp.com/XSD/mex_configuration_12.xsd" uuid="d792c064-e14d-4a95-acaf-b564962fef0d" version="12" xmlns="http://mcuxpresso.nxp.com/XSD/mex_configuration_12" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<configuration name="MIMXRT1052xxxxB" xsi:schemaLocation="http://mcuxpresso.nxp.com/XSD/mex_configuration_13 http://mcuxpresso.nxp.com/XSD/mex_configuration_13.xsd" uuid="d792c064-e14d-4a95-acaf-b564962fef0d" version="13" xmlns="http://mcuxpresso.nxp.com/XSD/mex_configuration_13" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <common>
       <processor>MIMXRT1052xxxxB</processor>
       <package>MIMXRT1052CVL5B</package>
@@ -18,13 +18,13 @@
       <generate_registers_defines>false</generate_registers_defines>
    </preferences>
    <tools>
-      <pins name="Pins" version="12.0" enabled="true" update_project_code="true">
+      <pins name="Pins" version="13.1" enabled="true" update_project_code="true">
          <generated_project_files>
             <file path="board/pin_mux.c" update_enabled="true"/>
             <file path="board/pin_mux.h" update_enabled="true"/>
          </generated_project_files>
          <pins_profile>
-            <processor_version>12.0.1</processor_version>
+            <processor_version>13.0.2</processor_version>
             <power_domains/>
          </pins_profile>
          <functions_list>
@@ -171,13 +171,13 @@
             </function>
          </functions_list>
       </pins>
-      <clocks name="Clocks" version="10.0" enabled="true" update_project_code="false">
+      <clocks name="Clocks" version="11.0" enabled="true" update_project_code="true">
          <generated_project_files>
             <file path="board/clock_config.c" update_enabled="true"/>
             <file path="board/clock_config.h" update_enabled="true"/>
          </generated_project_files>
          <clocks_profile>
-            <processor_version>12.0.1</processor_version>
+            <processor_version>13.0.2</processor_version>
          </clocks_profile>
          <clock_configurations>
             <clock_configuration name="BOARD_BootClockRUN" id_prefix="" prefix_user_defined="false">
@@ -325,7 +325,7 @@
             <file path="board/dcd.h" update_enabled="true"/>
          </generated_project_files>
          <dcdx_profile>
-            <processor_version>12.0.1</processor_version>
+            <processor_version>13.0.2</processor_version>
             <output_format>c_array</output_format>
          </dcdx_profile>
          <dcdx_configurations>
@@ -466,7 +466,7 @@
             </dcdx_configuration>
          </dcdx_configurations>
       </dcdx>
-      <periphs name="Peripherals" version="11.0" enabled="false" update_project_code="true">
+      <periphs name="Peripherals" version="12.0" enabled="false" update_project_code="true">
          <generated_project_files/>
          <peripherals_profile>
             <processor_version>N/A</processor_version>
