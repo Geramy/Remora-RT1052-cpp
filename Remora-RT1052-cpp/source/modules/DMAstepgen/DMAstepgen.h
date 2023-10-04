@@ -28,7 +28,6 @@ class DMAstepgen : public Module
 
     uint8_t stepLength;						// step time in number of DMA periods
     uint8_t stepSpace;						// step space in number of DMA periods
-    uint8_t dirSetup;
 
     int32_t *stepDMAbuffer;
     int32_t *stepDMAbuffer_0;
@@ -65,7 +64,7 @@ class DMAstepgen : public Module
 
   public:
 
-    DMAstepgen(int32_t, int, std::string, std::string, int, int, volatile int32_t&, volatile int32_t&, volatile uint8_t&, uint8_t, uint8_t, uint8_t);  // constructor
+    DMAstepgen(int32_t, int, std::string, std::string, int, int, volatile int32_t&, volatile int32_t&, volatile uint8_t&);  // constructor
 
     Pin *stepPin, *directionPin, *debug;		// class object members - Pin objects
 

@@ -386,7 +386,7 @@ void configThreads()
 
         if (!strcmp(configor,"Base"))
         {
-            base_freq = freq;
+            base_freq = 40000;
             printf("Setting BASE thread frequency to %d\n", base_freq);
         }
         else if (!strcmp(configor,"Servo"))
